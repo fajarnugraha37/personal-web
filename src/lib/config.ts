@@ -1,8 +1,8 @@
 import { dev } from '$app/environment'
-import { env } from '$env/dynamic/public'
+import { PUBLIC_BASE_PATH } from '$env/static/public'
 
 export const title = 'The Dawn of the Universe'
-export const description = 'SvelteKit blog'
+export const description = 'The Dawn of the Blog'
 export const url = dev 
     ? 'http://localhost:5173/' 
-    : env.PUBLIC_BASE_PATH;
+    : PUBLIC_BASE_PATH;
