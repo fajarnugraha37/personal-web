@@ -1,0 +1,1 @@
+{"type":"data","nodes":[null,{"type":"data","data":[{"posts":1},[2,11],{"title":3,"description":4,"date":5,"categories":6,"published":9,"slug":10},"Second","Second post.","2023-4-16",[7,8],"sveltekit","svelte",true,"second-post",{"title":12,"description":13,"date":14,"categories":15,"published":9,"slug":16},"First post","First post.","2023-4-14",[7,8],"first-post"],"uses":{}}]}
