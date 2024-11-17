@@ -4,19 +4,19 @@
 </script>
 
 <nav>
-	<a href="/" class="title">
+	<a href={config.url} class="title">
 		<b>{config.title}</b>
 	</a>
 
 	<ul class="links">
 		<li>
-			<a href="/about">About</a>
+			<a href={config.url + '/about'}>About</a>
 		</li>
 		<li>
-			<a href="/contact">Contact</a>
+			<a href={config.url + '/contact'}>Contact</a>
 		</li>
 		<li>
-			<a href="/rss.xml" target="_blank">RSS</a>
+			<a href={config.url + '/rss.xml'} target="_blank">RSS</a>
 		</li>
 	</ul>
 

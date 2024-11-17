@@ -1,7 +1,8 @@
 import { dev } from '$app/environment'
+import { env } from '$env/dynamic/public'
 
-export const title = 'Shakespeare'
-export const description = 'SvelteKit blog for poets'
+export const title = 'The Dawn of the Universe'
+export const description = 'SvelteKit blog'
 export const url = dev 
     ? 'http://localhost:5173/' 
-    : 'https://fajarnugraha37.github.io/personal-web/';
+    : env.PUBLIC_BASE_PATH;
